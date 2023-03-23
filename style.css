@@ -1,0 +1,19 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 15px;
+}
+
+.header {
+    height: 400px;
+    background-image: url("./src/images/hero_bolo.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
