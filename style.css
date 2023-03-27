@@ -107,6 +107,10 @@ h2 {
     cursor: url("./src/images/cursor_preparo.png"), default;
 }
 
+.instrucoes {
+    cursor: url("./src/images/cursor_intrucoes.png"), default;
+}
+
 .botao-comprar {
     padding: 16px;
     border-radius: 20px;
@@ -125,4 +129,18 @@ li {
 
 .lista-ingredientes {
     margin-bottom: 50px;
+}
+
+p {
+    font-weight: bold;
+    line-height: 28px;
+}
+
+footer {
+    background-color: #ff6b28;
+    color: white;
+    padding: 20px 200px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
 }
