@@ -1,7 +1,18 @@
 html,
 body {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+h1,
+h2 {
+    color: #ff6b28;
+}
+
+p {
+    font-weight: bold;
+    line-height: 26px;
 }
 
 .top-bar {
@@ -13,7 +24,36 @@ body {
 .header {
     height: 400px;
     background-image: url("./src/images/hero_bolo.jpg");
-    height: 400px;
     background-size: cover;
     background-position: center;
+}
+
+.main-container {
+    width: 1000px;
+    margin: 100px auto;
+
+}
+
+.conteudo {
+    width: 800px;
+    margin: 100px auto;
+}
+
+.conteudo ul {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.conteudo li {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.conteudo .btn {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: #ff6b28;
 }
